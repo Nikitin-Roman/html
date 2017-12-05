@@ -3,6 +3,7 @@
    <head>
       <title>Калькулятор</title>
       <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="./site.css"/>
    </head>
    <body>
       <header>
@@ -11,11 +12,11 @@
             Технологии Front-End
          </h1>
          <nav>
-            <ul>
+            <ul class="menu">
                <li><a href="./index.html" name="Главная" title="Главная">Главная</a></li>
                <li>
                   <a href="./technologies.html" name="Технологии" title="Технологии">Технологии</a>
-                  <ul>
+                  <ul  class="menu-inside">
                      <li><a href="./HTML.html" name="HTML" title="HTML">HTML</a></li>
                      <li><a href="./CSS.html" name="CSS" title="CSS">CSS</a></li>
                      <li><a href="./Bootstrap.html" name="Bootstrap" title="Bootstrap">Bootstrap</a></li>
@@ -28,7 +29,7 @@
       </header>
       <main>
          <form action="http://example.ua" method="get" name="calcul" id="calcul">
-            <table border="1">
+            <table>
                <tr>
                   <td colspan="5"><input type="number" name="result" id="result"></td>
                </tr>
@@ -63,7 +64,6 @@
       </main>
       <footer>
          <address><a href="mailto:nro91kh@gmail.com" >Пишите: nro91kh@gmail.com</a></address>
-         <br />
          	&copy; Никитин Р.О., 2017
       </footer>
    </body>

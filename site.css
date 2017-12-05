@@ -1,0 +1,187 @@
+body{
+	min-width:500px;
+}
+img{
+float:left;
+
+}
+#top{
+	text-align:center;
+	margin-bottom:15px;
+	margin-top:0px;
+
+}
+nav{
+
+}
+.menu{
+	margin-top:0px;
+	padding:0px;
+	float:left;
+	background:#AAA;
+	min-width:120px;
+	border-radius:10px;
+	margin-right:5px;
+
+}
+ul{
+		list-style-type: none;
+
+}
+li{
+	padding-left:7px;
+
+}
+.menu>li:first-child{
+	padding-top:5px;
+}
+.menu>li:last-child{
+	padding-bottom:5px;
+}
+.menu-inside{
+padding-left:30px;
+
+}
+main>p{
+	text-indent:30px;
+	margin-top:0px;
+	text-align:justify;
+
+}
+main{
+
+}
+footer{
+	text-align:center;
+clear:both;
+}
+
+/* html */
+aside{
+	float:right;
+	width:300px;
+	text-align:justify;
+	background:#999;
+	padding:0 5px;
+	border-radius:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+
+}
+aside>h3{
+	margin:5px 0 0 0;
+	text-align:center;
+}
+aside p{
+	margin-top:0;
+	margin-bottom:0;
+	text-indent:30px;
+}
+article{
+margin-left:120px;
+text-align:justify;
+text-indent:30px;
+}
+article>h1{
+	margin-bottom:0;
+	text-indent:0;
+}
+article p{
+margin-top:0;
+margin-bottom:0;
+}
+section h3{
+	text-indent:0;
+	margin-left:0;
+	margin-bottom:0;
+}
+section>p{
+	margin-top:0;
+}
+.up{
+	
+}
+/*  калькулятор */
+
+form{
+margin-left:695px;	
+}
+table{
+	border-spacing:0px;
+	margin-bottom:100px;
+}
+button{
+	width:30px;
+	height:30px;
+}
+#null{
+	width:62px;
+	height:30px;
+}
+#equal{
+		height:62px;
+	width:30px;
+}
+#result{
+	height:20px;
+	width:154px;
+}
+/*technologies*/
+
+.main-tech{
+	margin-top:20px;
+	margin-bottom:100px;
+}
+.main-tech p{
+margin-bottom:0px;
+}
+dl{
+	margin-top:0px;
+}
+dd{
+	text-indent:30px;
+}
+/*css*/
+.main-css{
+margin-bottom:100px;
+}
+.main-css h2{
+	margin-bottom:0;
+}
+.main-css p{
+	margin-top:0;
+	margin-bottom:0;
+	text-indent:30px;
+	text-align:justify;
+}
+/* bootstrap */
+.main-bootstrap{
+	margin-bottom:100px;
+}
+.main-bootstrap h2{
+margin-bottom:0;
+}
+.main-bootstrap p{
+		margin-top:0;
+	margin-bottom:0;
+	text-indent:30px;
+	text-align:justify;
+}
+/* test */
+.main-test form{
+	float:left;
+	margin-left:5px;
+	min-width:1277px;
+}
+form div{
+	border:1px solid black;
+	border-radius:5px;
+	margin-bottom:5px;
+	padding-left:5px;
+}
+#test #result{
+	width:70px;
+	padding:0;
+}
+
+
